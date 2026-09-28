@@ -5,63 +5,64 @@ const PREFS_KEY = 'kawan-hawe-chorwa-prefs-v1';
 
 const WORD_BANK = {
   'Desi Food': [
-    ['Golgappa','Momos'], ['Samosa','Kachori'], ['Biryani','Pulao'], ['Chai','Coffee'],
-    ['Maggi','Pasta'], ['Jalebi','Gulab Jamun'], ['Dosa','Cheela'], ['Paneer','Tofu'],
-    ['Naan','Paratha'], ['Lassi','Milkshake'], ['Chutney','Achar'], ['Pakora','French Fries'],
-    ['Chole Bhature','Rajma Chawal'], ['Kulfi','Ice Cream'], ['Pav Bhaji','Vada Pav'], ['Rasgulla','Rasmalai']
+    ['Litti','Baati'], ['Chokha','Bharta'], ['Samosa','Kachori'], ['Jalebi','Imarti'],
+    ['Chai','Sattu Sharbat'], ['Puri Sabji','Kachori Sabji'], ['Chura Dahi','Dahi Chini'], ['Achar','Chutney'],
+    ['Thekua','Khajuria'], ['Tilkut','Gajak'], ['Makhana','Chana'], ['Pakora','Bachka'],
+    ['Dal Puri','Sattu Paratha'], ['Kheer','Sewai'], ['Rasgulla','Gulab Jamun'], ['Papad','Chips']
   ],
   'Bihar Special': [
-    ['Litti Chokha','Sattu Paratha'], ['Thekua','Khajur'], ['Patna','Gaya'], ['Chhath','Holi'],
-    ['Ganga Ghat','Railway Station'], ['Sattu Sharbat','Lassi'], ['Tilkut','Gajak'], ['Nalanda','Bodh Gaya'],
-    ['Gamchha','Towel'], ['Bhojpuri Song','Bollywood Song'], ['Makhana','Popcorn'], ['Handpump','Water Cooler']
+    ['Patna','Gaya'], ['Ara','Buxar'], ['Chhapra','Siwan'], ['Nalanda','Rajgir'],
+    ['Chhath','Holi'], ['Chhath Ghat','Ganga Ghat'], ['Gamchha','Rumal'], ['Handpump','Nal'],
+    ['Gaon','Nani Ghar'], ['Khet','Bagicha'], ['Chowk','Chauraha'], ['Gali','Sadak'],
+    ['Bhojpuri Gaana','Bollywood Gaana'], ['Launda Naach','DJ Dance'], ['Mela','Haat'], ['Mukhiya','Sarpanch']
   ],
   'Everyday India': [
-    ['Train','Bus'], ['UPI','Cash'], ['Shaadi','Birthday'], ['Coaching','School'],
-    ['Hostel','PG'], ['Garmi','Humidity'], ['Auto','E-rickshaw'], ['Balcony','Terrace'],
-    ['Market','Mall'], ['Neighbour','Relative'], ['Power Cut','Low Battery'], ['Water Bottle','Thermos'],
-    ['Newspaper','WhatsApp Forward'], ['Tiffin','Lunch Box'], ['Traffic','Long Queue'], ['Ceiling Fan','Cooler']
+    ['Auto','E-rickshaw'], ['Thela','Dukaan'], ['UPI','Cash'], ['Bijli Katna','Network Jana'],
+    ['Cooler','Pankha'], ['Machhar','Makhi'], ['Chappal','Hawai Chappal'], ['Balti','Mug'],
+    ['Sabji Mandi','Kirana Dukaan'], ['Padosi','Rishtedaar'], ['Aadhaar Card','PAN Card'], ['Jugaad','Setting'],
+    ['Line Lagana','Seat Pakadna'], ['Phone Recharge','Bijli Bill'], ['Baranda','Chhat'], ['Cycle','Bike']
   ],
   'Gen-Z Lite': [
-    ['Reels','Shorts'], ['Meme','Sticker'], ['Influencer','Actor'], ['Group Chat','Comment Section'],
-    ['Ghosting','Ignoring'], ['Selfie','Mirror Pic'], ['Viral','Famous'], ['Crush','Best Friend'],
-    ['Podcast','Voice Note'], ['Unfollow','Block'], ['Filter','Makeup'], ['Screenshot','Screen Recording'],
-    ['Hashtag','Caption'], ['Playlist','Album'], ['Online','Offline'], ['DM','Phone Call']
+    ['Reels','Shorts'], ['Meme','Sticker'], ['Crush','Best Friend'], ['Seen','Ignore'],
+    ['Selfie','Mirror Pic'], ['Screenshot','Screen Recording'], ['Block','Unfollow'], ['Online','Last Seen'],
+    ['Group Chat','Private Chat'], ['Voice Note','Phone Call'], ['Viral','Trending'], ['Filter','Makeup'],
+    ['Status','Story'], ['Like','Reaction'], ['Gaming','Scrolling'], ['Earphone','Speaker']
   ],
   'Anime Energy': [
-    ['Hero','Villain'], ['Ninja','Samurai'], ['Power-Up','Transformation'], ['Sensei','Captain'],
-    ['Magic','Superpower'], ['Tournament','Final Battle'], ['Sword','Wand'], ['Dragon','Demon'],
-    ['Sidekick','Rival'], ['Secret Identity','Hidden Power'], ['Training Arc','Exam Week'], ['Theme Song','Background Music'],
-    ['Manga','Comic'], ['Cosplay','Fancy Dress'], ['Portal','Time Machine'], ['Robot','Monster']
+    ['Naruto','Sasuke'], ['Goku','Vegeta'], ['Luffy','Zoro'], ['Gojo','Sukuna'],
+    ['Hero','Villain'], ['Ninja','Samurai'], ['Sensei','Captain'], ['Power-Up','Transformation'],
+    ['Manga','Anime'], ['Rival','Best Friend'], ['Training Arc','Tournament Arc'], ['Hidden Power','Secret Identity'],
+    ['Sword','Kunai'], ['Demon','Monster'], ['Final Battle','Boss Fight'], ['Opening Song','Background Music']
   ],
   'School & College': [
-    ['Teacher','Principal'], ['Exam','Surprise Test'], ['Assignment','Project'], ['Canteen','Cafeteria'],
-    ['Backbencher','Topper'], ['Attendance','Marks'], ['Library','Computer Lab'], ['Farewell','Freshers'],
-    ['Tuition','Self Study'], ['Notebook','Textbook'], ['Pen','Pencil'], ['Uniform','Dress Code'],
-    ['Group Project','Group Study'], ['Sports Day','Annual Function'], ['Class Monitor','House Captain'], ['Lecture','Seminar']
+    ['School','Coaching'], ['Teacher','Master Sahab'], ['Principal','Class Teacher'], ['Exam','Surprise Test'],
+    ['Copy','Register'], ['Pen','Pencil'], ['Canteen','Thela'], ['Backbencher','Topper'],
+    ['Attendance','Marks'], ['Homework','Assignment'], ['Tuition','Self Study'], ['School Van','Auto'],
+    ['Chhutti','Bunk'], ['Class Monitor','CR'], ['Farewell','Annual Function'], ['Period','Tuition']
   ],
   'Movies & Music': [
-    ['Hero','Comedian'], ['Cinema','OTT'], ['Trailer','Teaser'], ['Remake','Sequel'],
-    ['Singer','Rapper'], ['DJ','Band'], ['Horror','Thriller'], ['Romance','Comedy'],
-    ['Dialogue','Lyrics'], ['Award Show','Reality Show'], ['Popcorn','Nachos'], ['Interval','Ad Break'],
-    ['Director','Producer'], ['Audition','Rehearsal'], ['Headphones','Speaker'], ['Concert','Festival']
+    ['Bhojpuri Film','Bollywood Film'], ['Pawan Singh','Khesari Lal'], ['Hero','Villain'], ['Cinema Hall','OTT'],
+    ['Trailer','Teaser'], ['DJ','Band Baja'], ['Singer','Actor'], ['Dialogue','Gaana'],
+    ['Comedy','Action'], ['Horror','Thriller'], ['Remake','Sequel'], ['Interval','Ad Break'],
+    ['Headphone','Speaker'], ['Shaadi Gaana','Chhath Geet'], ['Stage Show','Jagrata'], ['Dance','Naach']
   ],
   'Games & Sports': [
-    ['Cricket','Badminton'], ['Batsman','Bowler'], ['Free Fire','BGMI'], ['Chess','Ludo'],
-    ['Football','Hockey'], ['Stadium','Playground'], ['Coach','Referee'], ['Final','Semi-Final'],
-    ['Gaming PC','Console'], ['Teammate','Opponent'], ['Victory','High Score'], ['Controller','Keyboard'],
-    ['Carrom','Table Tennis'], ['Hide and Seek','Tag'], ['Penalty','Free Kick'], ['Medal','Trophy']
+    ['Cricket','Gully Cricket'], ['Bat','Danda'], ['Batsman','Bowler'], ['Six','Four'],
+    ['Tennis Ball','Leather Ball'], ['Free Fire','BGMI'], ['Ludo','Carrom'], ['Chess','Ludo'],
+    ['Kabaddi','Kho-Kho'], ['Gilli Danda','Pitthu'], ['Chhupan Chhupai','Pakdam Pakdai'], ['Ground','Khet'],
+    ['Captain','Coach'], ['Final','Semi-Final'], ['Trophy','Medal'], ['Teammate','Opponent']
   ],
   'Travel & Places': [
-    ['Mountain','Hill'], ['Beach','Swimming Pool'], ['Hotel','Resort'], ['Airport','Railway Station'],
-    ['Village','Small Town'], ['Delhi','Mumbai'], ['Goa','Manali'], ['Temple','Monument'],
-    ['Suitcase','Backpack'], ['Window Seat','Upper Berth'], ['Map','GPS'], ['Tourist','Traveller'],
-    ['Road Trip','Train Journey'], ['Passport','Aadhaar'], ['Picnic','Vacation'], ['Sunrise','Sunset']
+    ['Railway Station','Bus Stand'], ['General Coach','Sleeper'], ['Upper Berth','Side Upper'], ['Train','Bus'],
+    ['Auto','Tempo'], ['Gaon','Sheher'], ['Patna','Delhi'], ['Ganga Ghat','Mandir'],
+    ['Platform','Waiting Room'], ['Ticket','Reservation'], ['Suitcase','Bora'], ['Window Seat','Gate Wala Seat'],
+    ['Road Trip','Train Journey'], ['Chowk','Station Road'], ['Mela','Picnic'], ['Nani Ghar','Dadi Ghar']
   ],
   'Home & Family': [
-    ['Mummy','Dadi'], ['Papa','Chacha'], ['Brother','Cousin'], ['Kitchen','Dining Room'],
-    ['Sofa','Bed'], ['Doorbell','Phone Ring'], ['Remote','Charger'], ['Bucket','Mug'],
-    ['Cleaning','Cooking'], ['Family Group','Friends Group'], ['Festival','Family Function'], ['Gift','Shagun'],
-    ['Photo Album','Phone Gallery'], ['Argument','Debate'], ['Nap','Full Sleep'], ['Guest','Neighbour']
+    ['Mummy','Chachi'], ['Papa','Chacha'], ['Dadi','Nani'], ['Mama','Chacha'],
+    ['Bhai','Cousin'], ['Bhabhi','Didi'], ['Saas','Mummy'], ['Mehmaan','Padosi'],
+    ['Jhadu','Pocha'], ['Rasoi','Aangan'], ['Chhat','Baranda'], ['TV Remote','Mobile Charger'],
+    ['Shaadi','Tilak'], ['Haldi','Mehndi'], ['Baraat','Juloos'], ['Shagun','Neg']
   ]
 };
 
@@ -101,10 +102,10 @@ const RAVI_TIPS = [
 ];
 
 const PACK_LABELS = {
-  Mixed:'Sab kuchh mix', 'Desi Food':'Desi khaana', 'Bihar Special':'Bihar special',
-  'Everyday India':'Roz ke India', 'Gen-Z Lite':'Gen-Z tadka', 'Anime Energy':'Anime josh',
-  'School & College':'School aur college', 'Movies & Music':'Filim aur gaana',
-  'Games & Sports':'Khel-kood', 'Travel & Places':'Ghoomna-phirna', 'Home & Family':'Ghar-parivaar'
+  Mixed:'Sab kuchh mix', 'Desi Food':'Khana-peena', 'Bihar Special':'Bihar OP',
+  'Everyday India':'Apna roz-marrah', 'Gen-Z Lite':'Gen-Z tadka', 'Anime Energy':'Anime josh',
+  'School & College':'School & coaching', 'Movies & Music':'Filim aur gaana',
+  'Games & Sports':'Khel-kood', 'Travel & Places':'Gaon-sheher safar', 'Home & Family':'Ghar-parivaar'
 };
 
 const freshState = () => ({
