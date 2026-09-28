@@ -1,0 +1,25 @@
+# Release checklist
+
+- [x] Dynamic 3–12 unique player names and character selections
+- [x] Fast unique avatar assignment, reroll, optional gallery, and sticky confirmation
+- [x] 20-second first-play tutorial and automatic mobile scroll reset
+- [x] Sixteen requested anime character choices
+- [x] 156 approachable word pairs across ten desi-friendly packs
+- [x] Private pass screen followed by press-and-hold reveal
+- [x] Secret hides immediately on pointer/key release
+- [x] Random clue starter; no forced per-player clue screens
+- [x] Shared clue/discussion timer with 60/90/120/180-second live setting
+- [x] Private pass-and-play voting, runoff tie, second-tie escape
+- [x] Caught-Impostor final guess and correct scoring
+- [x] Live session statistics, end-anytime final results, safe resume
+- [x] 3/5/7/unlimited session targets, confirmation before ending, and same-toli replay
+- [x] Session awards, shareable text results, and recent-word protection
+- [x] Optional sound/vibration feedback and post-session install prompt
+- [x] Ravi Kishan host cards and locally stored sprites
+- [x] Roman Bhojpuri interface and Arya special-edition branding
+- [x] Responsive phone layout and reduced-motion support
+- [x] Local assets, installable manifest, offline service worker
+- [x] CSP and security headers; internal project files not served
+- [x] Automated core and production verification via `npm test`
+- [x] Clean GitHub Pages artifact and Actions deployment workflow
+- [x] Live HTTP status, MIME type, CSP, and private-file probe

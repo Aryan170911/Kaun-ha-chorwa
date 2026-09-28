@@ -1,0 +1,12 @@
+{
+  "name": "kawan-hawe-chorwa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arya Birthbash Special Edition pass-and-play party game",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node scripts/build-pages.js",
+    "test": "node tests/game-core.test.js && node tests/verify-production.js"
+  },
+  "engines": {"node": ">=18"}
+}

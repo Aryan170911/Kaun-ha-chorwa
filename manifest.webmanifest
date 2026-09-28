@@ -1,0 +1,14 @@
+{
+  "name": "Kawan Hawe Chorwa — Arya Special Edition",
+  "short_name": "Chorwa",
+  "description": "Roman Bhojpuri pass-and-play anime party game for 3–12 players.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#08080d",
+  "theme_color": "#ff304f",
+  "icons": [
+    {"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
