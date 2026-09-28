@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kawan Hawe Chorwa
 
 `#birthbash-Arya Special Edition`
@@ -55,3 +56,6 @@ The game saves automatically with browser `localStorage`. A save belongs to that
 - Dependency-free server with CSP and private-file allowlisting
 
 Anime character images were sourced from MyAnimeList and Ravi Kishan photos from Wikimedia Commons, then stored locally for reliability. See `THIRD_PARTY_ASSETS.md`; this private family edition requires an asset-rights review before public or commercial release.
+=======
+# Kaun-ha-chorwa
+>>>>>>> bc3160acf91d1a6c21be723322b3463c3c5de62d
