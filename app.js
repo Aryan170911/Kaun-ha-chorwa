@@ -30,7 +30,7 @@ const WORD_BANK = {
   ],
   'Anime Energy': [
     ['Naruto','Sasuke'], ['Goku','Vegeta'], ['Luffy','Zoro'], ['Gojo','Sukuna'],
-    ['Hero','Villain'], ['Ninja','Samurai'], ['Sensei','Captain'], ['Power-Up','Transformation'],
+    ['Ninja','Samurai'], ['Sensei','Captain'], ['Power-Up','Transformation'],
     ['Manga','Anime'], ['Rival','Best Friend'], ['Training Arc','Tournament Arc'], ['Hidden Power','Secret Identity'],
     ['Sword','Kunai'], ['Demon','Monster'], ['Final Battle','Boss Fight'], ['Opening Song','Background Music']
   ],
@@ -38,7 +38,7 @@ const WORD_BANK = {
     ['School','Coaching'], ['Teacher','Master Sahab'], ['Principal','Class Teacher'], ['Exam','Surprise Test'],
     ['Copy','Register'], ['Pen','Pencil'], ['Canteen','Thela'], ['Backbencher','Topper'],
     ['Attendance','Marks'], ['Homework','Assignment'], ['Tuition','Self Study'], ['School Van','Auto'],
-    ['Chhutti','Bunk'], ['Class Monitor','CR'], ['Farewell','Annual Function'], ['Period','Tuition']
+    ['Chhutti','Bunk'], ['Class Monitor','CR'], ['Farewell','Annual Function']
   ],
   'Movies & Music': [
     ['Bhojpuri Film','Bollywood Film'], ['Pawan Singh','Khesari Lal'], ['Hero','Villain'], ['Cinema Hall','OTT'],
@@ -48,7 +48,7 @@ const WORD_BANK = {
   ],
   'Games & Sports': [
     ['Cricket','Gully Cricket'], ['Bat','Danda'], ['Batsman','Bowler'], ['Six','Four'],
-    ['Tennis Ball','Leather Ball'], ['Free Fire','BGMI'], ['Ludo','Carrom'], ['Chess','Ludo'],
+    ['Tennis Ball','Leather Ball'], ['Free Fire','BGMI'], ['Ludo','Carrom'],
     ['Kabaddi','Kho-Kho'], ['Gilli Danda','Pitthu'], ['Chhupan Chhupai','Pakdam Pakdai'], ['Ground','Khet'],
     ['Captain','Coach'], ['Final','Semi-Final'], ['Trophy','Medal'], ['Teammate','Opponent']
   ],
@@ -61,7 +61,7 @@ const WORD_BANK = {
   'Home & Family': [
     ['Mummy','Chachi'], ['Papa','Chacha'], ['Dadi','Nani'], ['Mama','Chacha'],
     ['Bhai','Cousin'], ['Bhabhi','Didi'], ['Saas','Mummy'], ['Mehmaan','Padosi'],
-    ['Jhadu','Pocha'], ['Rasoi','Aangan'], ['Chhat','Baranda'], ['TV Remote','Mobile Charger'],
+    ['Jhadu','Pocha'], ['Rasoi','Aangan'], ['TV Remote','Mobile Charger'],
     ['Shaadi','Tilak'], ['Haldi','Mehndi'], ['Baraat','Juloos'], ['Shagun','Neg']
   ]
 };
