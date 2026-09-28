@@ -33,7 +33,7 @@ for(const asset of new Set(localAssets)){
   const magic=fs.readFileSync(path.join(root,asset)).subarray(0,2);
   assert.deepEqual([...magic],[0xff,0xd8],`${asset} is not a valid JPEG`);
 }
-assert.ok(fs.statSync(path.join(root,'assets/icon.svg')).size>1000,'logo asset is missing');
+assert.ok(fs.statSync(path.join(root,'assets/icon-48.png')).size>1000,'logo asset is missing');
 assert.equal((app.match(/assets\/ravi\//g)||[]).length,3,'must have three Ravi sprites');
 assert.equal((app.match(/https:\/\/cdn\.myanimelist/g)||[]).length,0,'runtime must not hotlink anime CDN');
 

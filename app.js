@@ -172,7 +172,7 @@ function raviCard(tip = RAVI_TIPS[Math.floor(Math.random()*RAVI_TIPS.length)]) {
 function shell(content, options={}) {
   const stats = state.sessionActive && !state.ended ? `<button class="btn ghost icon-btn" id="stats-btn">⚡ Hisaab</button>` : '';
   const settings = state.sessionActive && !state.ended ? `<button class="btn ghost icon-btn" id="settings-btn">⚙️ Setting</button>` : '';
-  app.innerHTML = `<div class="shell"><header class="topbar"><div class="brand"><span class="brand-mark"><img src="assets/icon.svg" alt="" width="39" height="39"></span><span>KAWAN HAWE CHORWA<small class="edition">#BIRTHBASH-ARYA // SPECIAL EDITION</small></span></div><div class="top-actions">${settings}${stats}</div></header><section class="screen">${content}</section><div class="edge-kanji" aria-hidden="true">裏切者</div></div>`;
+  app.innerHTML = `<div class="shell"><header class="topbar"><div class="brand"><span class="brand-mark"><img src="assets/icon-48.png" alt="" width="39" height="39"></span><span>KAWAN HAWE CHORWA<small class="edition">#BIRTHBASH-ARYA // SPECIAL EDITION</small></span></div><div class="top-actions">${settings}${stats}</div></header><section class="screen">${content}</section><div class="edge-kanji" aria-hidden="true">裏切者</div></div>`;
   document.querySelector('#stats-btn')?.addEventListener('click', showStats);
   document.querySelector('#settings-btn')?.addEventListener('click', showSettings);
   if (state.sessionActive || state.ended) save();
