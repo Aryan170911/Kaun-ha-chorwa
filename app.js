@@ -215,7 +215,7 @@ function renderHome() {
       </div>
       <p class="art-credit">Character tasveer <a href="https://myanimelist.net/character.php" target="_blank" rel="noreferrer">MyAnimeList</a> se · Ravi bhai photo <a href="https://commons.wikimedia.org/wiki/Category:Ravi_Kishan" target="_blank" rel="noreferrer">Wikimedia Commons</a> se.</p>
     </div>
-    <div class="anime-collage"><div class="sun-disc"></div>${showcase}<div class="impact-text">CHOR!</div></div>
+    <div class="anime-collage"><div class="sun-disc"></div>${showcase}<img class="collage-logo" src="assets/icon.svg" alt="Kawan Hawe Chorwa logo" width="180" height="180"></div>
   </div>`);
   document.querySelector('#new-session').onclick = () => renderSetup(true);
   document.querySelector('#resume')?.addEventListener('click', () => { state = saved; renderCurrent(); });
