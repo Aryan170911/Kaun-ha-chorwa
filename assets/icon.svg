@@ -8,7 +8,6 @@
       <stop stop-color="#ffe782"/><stop offset="1" stop-color="#ffb938"/>
     </linearGradient>
   </defs>
-  <rect width="512" height="512" rx="112" fill="#0b0b13"/>
   <path d="M91 113 256 58l165 55v202c0 72-68 116-165 153C159 431 91 387 91 315Z" fill="#171520" stroke="url(#heat)" stroke-width="20" stroke-linejoin="round"/>
   <path d="M116 174c39-32 83-48 140-48s101 16 140 48" fill="none" stroke="#ff304f" stroke-width="15" stroke-linecap="round"/>
   <path d="M87 258c44-63 100-95 169-95s125 32 169 95c-44 63-100 95-169 95S131 321 87 258Z" fill="#f8f1e9"/>
