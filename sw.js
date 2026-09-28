@@ -1,4 +1,4 @@
-const CACHE = 'kawan-hawe-chorwa-v6';
+const CACHE = 'kawan-hawe-chorwa-v7';
 const ASSETS = [
   './','./index.html','./styles.css','./game-core.js','./app.js','./manifest.webmanifest','./assets/icon-48.png','./assets/icon-192.png','./assets/icon-512.png',
   './assets/anime/naruto.jpg','./assets/anime/itachi.jpg','./assets/anime/luffy.jpg','./assets/anime/zoro.jpg',
